@@ -1,0 +1,413 @@
+[
+    {
+        "name": "MSA Dictionary",
+        "path": "D:/Projects/CTools/TransactionCompiler/Example Files/Dictionaries/MSADictionary.xlsx",
+        "lookup_column": "Donor ZIP",
+        "output_column": "MSA",
+        "use_post_merger": false,
+        "use_zip_validation": true,
+        "values": [],
+        "include_in_last_gift": false
+    },
+    {
+        "name": "Designation Dictionary",
+        "path": "D:/Projects/CTools/TransactionCompiler/Example Files/Dictionaries/DesignationDictionarySample.xlsx",
+        "lookup_column": "Recipient",
+        "output_column": "Designation",
+        "use_post_merger": true,
+        "values": [
+            {
+                "key": "Do Not Use - Organize Florida (c4)",
+                "merger_key": "Florida Rising",
+                "value": "c4",
+                "clean_name": "Do Not Use - Organize Florida (c4)",
+                "clean_merger_name": "Florida Rising"
+            },
+            {
+                "key": "Do Not Use - Organize Florida Education Fund (c3)",
+                "merger_key": "Florida Rising Together",
+                "value": "c3",
+                "clean_name": "Do Not Use - Organize Florida Education Fund (c3)",
+                "clean_merger_name": "Florida Rising Together"
+            },
+            {
+                "key": "Florida Rising",
+                "merger_key": "",
+                "value": "c4",
+                "clean_name": "Florida Rising",
+                "clean_merger_name": ""
+            },
+            {
+                "key": "Florida Rising Together",
+                "merger_key": "",
+                "value": "c3",
+                "clean_name": "Florida Rising Together",
+                "clean_merger_name": ""
+            },
+            {
+                "key": "New Florida Majority",
+                "merger_key": "Florida Rising",
+                "value": "c4",
+                "clean_name": "New Florida Majority",
+                "clean_merger_name": "Florida Rising"
+            },
+            {
+                "key": "New Florida Majority Education Fund",
+                "merger_key": "Florida Rising Together",
+                "value": "c3",
+                "clean_name": "New Florida Majority Education Fund",
+                "clean_merger_name": "Florida Rising Together"
+            },
+            {
+                "key": "New Florida Majority Education Fund",
+                "merger_key": "Florida Rising Together",
+                "value": "c3",
+                "clean_name": "New Florida Majority Education Fund",
+                "clean_merger_name": "Florida Rising Together"
+            },
+            {
+                "key": "New Florida Vision",
+                "merger_key": "New Florida Vision PAC",
+                "value": "State PAC",
+                "clean_name": "New Florida Vision PAC",
+                "clean_merger_name": "New Florida Vision PAC"
+            },
+            {
+                "key": "Organize Florida",
+                "merger_key": "Florida Rising",
+                "value": "c4",
+                "clean_name": "Organize Florida",
+                "clean_merger_name": "Florida Rising"
+            },
+            {
+                "key": "Organize Florida Education Fund",
+                "merger_key": "Florida Rising Together",
+                "value": "c3",
+                "clean_name": "Organize Florida Education Fund",
+                "clean_merger_name": "Florida Rising Together"
+            },
+            {
+                "key": "Florida Freedom",
+                "merger_key": "Florida Freedom PAC",
+                "value": "Federal PAC",
+                "clean_name": "Florida Freedom PAC",
+                "clean_merger_name": "Florida Freedom PAC"
+            },
+            {
+                "key": "Florida Cares",
+                "merger_key": "Florida Cares PAC",
+                "value": "State PAC",
+                "clean_name": "Florida Cares PAC",
+                "clean_merger_name": "Florida Cares PAC"
+            },
+            {
+                "key": "Family Always Comes First",
+                "merger_key": "Family Always Comes First PAC",
+                "value": "Ballot Initiative PAC",
+                "clean_name": "Family Always Comes First PAC",
+                "clean_merger_name": "Family Always Comes First PAC"
+            },
+            {
+                "key": "New Florida Vision PAC",
+                "merger_key": "New Florida Vision PAC",
+                "value": "State PAC",
+                "clean_name": "New Florida Vision PAC",
+                "clean_merger_name": "New Florida Vision PAC"
+            },
+            {
+                "key": "Florida Freedom PAC\n",
+                "merger_key": "Florida Freedom PAC\n",
+                "value": "Federal PAC",
+                "clean_name": "Florida Freedom PAC\n",
+                "clean_merger_name": "Florida Freedom PAC\n"
+            }
+        ],
+        "use_zip_validation": false,
+        "include_in_last_gift": true
+    },
+    {
+        "name": "Split Dictionary",
+        "path": "D:/Projects/CTools/TransactionCompiler/Example Files/Dictionaries/SplitDictionarySample.xlsx",
+        "lookup_column": "Contribution Form URL",
+        "output_column": "Split?",
+        "use_post_merger": false,
+        "use_zip_validation": false,
+        "include_in_last_gift": true,
+        "values": [
+            {
+                "key": "Contribution Form URL",
+                "merger_key": "",
+                "value": "Split",
+                "clean_name": "Contribution Form URL",
+                "clean_merger_name": ""
+            },
+            {
+                "key": "https://secure.actblue.com/my-express/",
+                "merger_key": "",
+                "value": "Not Split",
+                "clean_name": "https://secure.actblue.com/my-express/",
+                "clean_merger_name": ""
+            },
+            {
+                "key": "https://secure.actblue.com/page/dkendorses2020ddc",
+                "merger_key": "",
+                "value": "Split",
+                "clean_name": "https://secure.actblue.com/page/dkendorses2020ddc",
+                "clean_merger_name": ""
+            },
+            {
+                "key": "https://secure.actblue.com/page/dkllvotingrights2021",
+                "merger_key": "",
+                "value": "Split",
+                "clean_name": "https://secure.actblue.com/page/dkllvotingrights2021",
+                "clean_merger_name": ""
+            },
+            {
+                "key": "https://secure.actblue.com/page/dkendorses2022civicfl",
+                "merger_key": "",
+                "value": "Split",
+                "clean_name": "https://secure.actblue.com/page/dkendorses2022civicfl",
+                "clean_merger_name": ""
+            },
+            {
+                "key": "https://secure.actblue.com/page/mvmt-us-movement2018",
+                "merger_key": "",
+                "value": "Split",
+                "clean_name": "https://secure.actblue.com/page/mvmt-us-movement2018",
+                "clean_merger_name": ""
+            }
+        ]
+    },
+    {
+        "name": "Birthdays Dictionary",
+        "path": "D:/Projects/CTools/TransactionCompiler/Example Files/Dictionaries/BirthDateDictionary.xlsx",
+        "lookup_column": "Relationship ID",
+        "output_column": "Birthdate?",
+        "use_post_merger": false,
+        "use_zip_validation": false,
+        "include_in_last_gift": false,
+        "values": [
+            {
+                "key": "VANID",
+                "merger_key": "",
+                "value": "Date of Birth",
+                "clean_name": "VANID",
+                "clean_merger_name": ""
+            },
+            {
+                "key": 109373565,
+                "merger_key": "",
+                "value": "1991-07-01 00:00:00",
+                "clean_name": 109373565,
+                "clean_merger_name": ""
+            },
+            {
+                "key": 108841401,
+                "merger_key": "",
+                "value": "1984-06-01 00:00:00",
+                "clean_name": 108841401,
+                "clean_merger_name": ""
+            },
+            {
+                "key": 109318953,
+                "merger_key": "",
+                "value": "1997-05-01 00:00:00",
+                "clean_name": 109318953,
+                "clean_merger_name": ""
+            },
+            {
+                "key": 109322270,
+                "merger_key": "",
+                "value": "1982-05-02 00:00:00",
+                "clean_name": 109322270,
+                "clean_merger_name": ""
+            },
+            {
+                "key": 109322271,
+                "merger_key": "",
+                "value": "1994-05-03 00:00:00",
+                "clean_name": 109322271,
+                "clean_merger_name": ""
+            },
+            {
+                "key": 109322269,
+                "merger_key": "",
+                "value": "1993-05-04 00:00:00",
+                "clean_name": 109322269,
+                "clean_merger_name": ""
+            },
+            {
+                "key": 109322272,
+                "merger_key": "",
+                "value": "1991-05-05 00:00:00",
+                "clean_name": 109322272,
+                "clean_merger_name": ""
+            },
+            {
+                "key": 109322273,
+                "merger_key": "",
+                "value": "1990-05-06 00:00:00",
+                "clean_name": 109322273,
+                "clean_merger_name": ""
+            },
+            {
+                "key": 109322274,
+                "merger_key": "",
+                "value": "1987-05-07 00:00:00",
+                "clean_name": 109322274,
+                "clean_merger_name": ""
+            },
+            {
+                "key": 109322275,
+                "merger_key": "",
+                "value": "1991-05-08 00:00:00",
+                "clean_name": 109322275,
+                "clean_merger_name": ""
+            },
+            {
+                "key": 109322292,
+                "merger_key": "",
+                "value": "1978-05-09 00:00:00",
+                "clean_name": 109322292,
+                "clean_merger_name": ""
+            },
+            {
+                "key": 109373576,
+                "merger_key": "",
+                "value": "1999-05-10 00:00:00",
+                "clean_name": 109373576,
+                "clean_merger_name": ""
+            },
+            {
+                "key": 109373577,
+                "merger_key": "",
+                "value": "1996-05-11 00:00:00",
+                "clean_name": 109373577,
+                "clean_merger_name": ""
+            },
+            {
+                "key": 109373578,
+                "merger_key": "",
+                "value": "2000-05-12 00:00:00",
+                "clean_name": 109373578,
+                "clean_merger_name": ""
+            }
+        ]
+    },
+    {
+        "name": "Member Dictionary",
+        "path": "D:/Projects/CTools/TransactionCompiler/Example Files/Dictionaries/MemberDictionary.xlsx",
+        "lookup_column": "Relationship ID",
+        "output_column": "Member?",
+        "use_post_merger": false,
+        "use_zip_validation": false,
+        "include_in_last_gift": false,
+        "values": [
+            {
+                "key": "VANID",
+                "merger_key": "",
+                "value": "Level",
+                "clean_name": "VANID",
+                "clean_merger_name": ""
+            },
+            {
+                "key": 109373565,
+                "merger_key": "",
+                "value": "Member Donor Test",
+                "clean_name": 109373565,
+                "clean_merger_name": ""
+            },
+            {
+                "key": 109318953,
+                "merger_key": "",
+                "value": "Member Donor Test",
+                "clean_name": 109318953,
+                "clean_merger_name": ""
+            },
+            {
+                "key": 109318953,
+                "merger_key": "",
+                "value": "Member Donor Test",
+                "clean_name": 109318953,
+                "clean_merger_name": ""
+            },
+            {
+                "key": 109318953,
+                "merger_key": "",
+                "value": "Member Donor Test",
+                "clean_name": 109318953,
+                "clean_merger_name": ""
+            },
+            {
+                "key": 109318953,
+                "merger_key": "",
+                "value": "Member Donor Test",
+                "clean_name": 109318953,
+                "clean_merger_name": ""
+            },
+            {
+                "key": 109322269,
+                "merger_key": "",
+                "value": "Member Donor Test",
+                "clean_name": 109322269,
+                "clean_merger_name": ""
+            },
+            {
+                "key": 109322269,
+                "merger_key": "",
+                "value": "Member Donor Test",
+                "clean_name": 109322269,
+                "clean_merger_name": ""
+            },
+            {
+                "key": 109322269,
+                "merger_key": "",
+                "value": "Member Donor Test",
+                "clean_name": 109322269,
+                "clean_merger_name": ""
+            },
+            {
+                "key": 109322269,
+                "merger_key": "",
+                "value": "Member Donor Test",
+                "clean_name": 109322269,
+                "clean_merger_name": ""
+            },
+            {
+                "key": 109322292,
+                "merger_key": "",
+                "value": "Member Donor Test",
+                "clean_name": 109322292,
+                "clean_merger_name": ""
+            },
+            {
+                "key": 109322292,
+                "merger_key": "",
+                "value": "Member Donor Test",
+                "clean_name": 109322292,
+                "clean_merger_name": ""
+            },
+            {
+                "key": 109373576,
+                "merger_key": "",
+                "value": "Member Donor Test",
+                "clean_name": 109373576,
+                "clean_merger_name": ""
+            },
+            {
+                "key": 109373577,
+                "merger_key": "",
+                "value": "Member Donor Test",
+                "clean_name": 109373577,
+                "clean_merger_name": ""
+            },
+            {
+                "key": 109373578,
+                "merger_key": "",
+                "value": "Member Donor Test",
+                "clean_name": 109373578,
+                "clean_merger_name": ""
+            }
+        ]
+    }
+]

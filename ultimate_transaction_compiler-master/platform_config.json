@@ -1,0 +1,597 @@
+[
+  {
+    "name": "Every Action",
+    "file_pattern": "*.xlsx",
+    "date_field": "Date Received",
+    "date_fallback_field": null,
+    "amount_field": "Amount",
+    "id_field": "VANID",
+    "secondary_id_field": "ActBlue ID",
+    "is_base_platform": true,
+    "column_mapping": {
+      "Transaction ID": {
+        "target": "Contribution ID",
+        "default": ""
+      },
+      "Secondary ID": {
+        "target": "ActBlue ID",
+        "default": ""
+      },
+      "Recipient": {
+        "target": "Designation",
+        "default": ""
+      },
+      "Contribution Form URL": {
+        "target": "N/A",
+        "default": ""
+      },
+      "Display Name": {
+        "target": "N/A",
+        "default": ""
+      },
+      "Donor First Name": {
+        "target": "First Name",
+        "default": ""
+      },
+      "Donor Last Name": {
+        "target": "Last Name",
+        "default": ""
+      },
+      "Donor Address Line 1": {
+        "target": "Home Street Address",
+        "default": ""
+      },
+      "Donor City": {
+        "target": "Home City",
+        "default": ""
+      },
+      "Donor State": {
+        "target": "Home State/Province",
+        "default": ""
+      },
+      "Donor ZIP": {
+        "target": "Home Zip/Postal",
+        "default": ""
+      },
+      "Donor Country": {
+        "target": "Home Country",
+        "default": ""
+      },
+      "Donor Occupation": {
+        "target": "N/A",
+        "default": ""
+      },
+      "Donor Employer": {
+        "target": "N/A",
+        "default": ""
+      },
+      "Donor Email": {
+        "target": "Personal Email",
+        "default": ""
+      },
+      "Donor Phone": {
+        "target": "Home Phone",
+        "default": ""
+      },
+      "Recurring ID": {
+        "target": "Recurring Commitment ID",
+        "default": "0"
+      },
+      "Initial Recurring Contribution Date": {
+        "target": "Start Date",
+        "default": ""
+      },
+      "Is Recurring": {
+        "target": "Is Recurring Commitment",
+        "default": "FALSE"
+      },
+      "Match?": {
+        "target": "N/A",
+        "default": ""
+      }
+    },
+    "relationship_id_key": "Personal Email",
+    "has_display_name": false,
+    "sample_columns": [
+      "VANID",
+      "Contribution ID",
+      "ActBlue ID",
+      "Personal Email",
+      "Date Received",
+      "Amount",
+      "Is Recurring Commitment",
+      "Recurring Commitment ID",
+      "Start Date",
+      "Contact Name",
+      "First Name",
+      "Last Name",
+      "Designation",
+      "Unnamed: 13",
+      "Home Street Address",
+      "Home City",
+      "Home State/Province",
+      "Home Zip/Postal",
+      "Home Country",
+      "Home Phone"
+    ],
+    "sample_file_path": "D:/Projects/CTools/TransactionCompiler/Example Files/EveryAction Large Sample All time.xlsx",
+    "recurring_true_value": "1",
+    "recurring_values": []
+  },
+  {
+    "name": "Act Blue",
+    "file_pattern": "*.xlsx",
+    "date_field": "Paid At",
+    "date_fallback_field": null,
+    "amount_field": "Amount",
+    "id_field": "Order Number",
+    "secondary_id_field": "Lineitem ID",
+    "is_base_platform": false,
+    "column_mapping": {
+      "Transaction ID": {
+        "target": "Lineitem ID",
+        "default": ""
+      },
+      "Secondary ID": {
+        "target": "Order Number",
+        "default": ""
+      },
+      "Recipient": {
+        "target": "Recipient",
+        "default": ""
+      },
+      "Contribution Form URL": {
+        "target": "Contribution Form URL",
+        "default": ""
+      },
+      "Display Name": {
+        "target": "N/A",
+        "default": ""
+      },
+      "Donor First Name": {
+        "target": "Donor First Name",
+        "default": ""
+      },
+      "Donor Last Name": {
+        "target": "Donor Last Name",
+        "default": ""
+      },
+      "Donor Address Line 1": {
+        "target": "Donor Address Line 1",
+        "default": ""
+      },
+      "Donor City": {
+        "target": "Donor City",
+        "default": ""
+      },
+      "Donor State": {
+        "target": "Donor State",
+        "default": ""
+      },
+      "Donor ZIP": {
+        "target": "Donor ZIP",
+        "default": ""
+      },
+      "Donor Country": {
+        "target": "Donor Country",
+        "default": ""
+      },
+      "Donor Occupation": {
+        "target": "Donor Occupation",
+        "default": ""
+      },
+      "Donor Employer": {
+        "target": "Donor Employer",
+        "default": ""
+      },
+      "Donor Email": {
+        "target": "Donor Email",
+        "default": ""
+      },
+      "Donor Phone": {
+        "target": "Donor Phone",
+        "default": ""
+      },
+      "Recurring ID": {
+        "target": "N/A",
+        "default": ""
+      },
+      "Initial Recurring Contribution Date": {
+        "target": "Initial Recurring Contribution Date",
+        "default": ""
+      },
+      "Is Recurring": {
+        "target": "Is Recurring",
+        "default": "FALSE"
+      },
+      "Match?": {
+        "target": "N/A",
+        "default": "Not a Match"
+      }
+    },
+    "relationship_id_key": "Donor Email",
+    "has_display_name": false,
+    "sample_columns": [
+      "Lineitem ID",
+      "Order Number",
+      "Donor Email",
+      "Amount",
+      "Paid At",
+      "Is Recurring",
+      "Initial Recurring Contribution Date",
+      "Recipient",
+      "Contribution Form URL",
+      "Donor First Name",
+      "Donor Last Name",
+      "Donor Address Line 1",
+      "Donor City",
+      "Donor State",
+      "Donor ZIP",
+      "Donor Country",
+      "Donor Occupation",
+      "Donor Employer",
+      "Donor Phone",
+      "Donor ZIP.1"
+    ],
+    "sample_file_path": "D:/Projects/CTools/TransactionCompiler/Example Files/Act Blue Large Sample All time.xlsx",
+    "recurring_true_value": "True",
+    "recurring_values": []
+  },
+  {
+    "name": "Give Miami Day",
+    "file_pattern": "",
+    "date_field": "Date",
+    "date_fallback_field": null,
+    "amount_field": "Amount",
+    "id_field": "Tracking #",
+    "secondary_id_field": "",
+    "is_base_platform": false,
+    "column_mapping": {
+      "Transaction ID": {
+        "target": "Tracking #",
+        "default": ""
+      },
+      "Secondary ID": {
+        "target": "N/A",
+        "default": ""
+      },
+      "Recipient": {
+        "target": "Recipient",
+        "default": ""
+      },
+      "Contribution Form URL": {
+        "target": "Giving Event Name",
+        "default": ""
+      },
+      "Display Name": {
+        "target": "N/A",
+        "default": ""
+      },
+      "Donor First Name": {
+        "target": "Donor First Name",
+        "default": ""
+      },
+      "Donor Last Name": {
+        "target": "Donor Last Name",
+        "default": ""
+      },
+      "Donor Address Line 1": {
+        "target": "Address",
+        "default": ""
+      },
+      "Donor City": {
+        "target": "City",
+        "default": ""
+      },
+      "Donor State": {
+        "target": "State",
+        "default": ""
+      },
+      "Donor ZIP": {
+        "target": "Zip",
+        "default": ""
+      },
+      "Donor Country": {
+        "target": "Country",
+        "default": ""
+      },
+      "Donor Occupation": {
+        "target": "N/A",
+        "default": ""
+      },
+      "Donor Employer": {
+        "target": "N/A",
+        "default": ""
+      },
+      "Donor Email": {
+        "target": "Email",
+        "default": ""
+      },
+      "Donor Phone": {
+        "target": "Phone Number (ID9186)",
+        "default": ""
+      },
+      "Recurring ID": {
+        "target": "N/A",
+        "default": ""
+      },
+      "Initial Recurring Contribution Date": {
+        "target": "N/A",
+        "default": ""
+      },
+      "Is Recurring": {
+        "target": "N/A",
+        "default": "FALSE"
+      },
+      "Match?": {
+        "target": "N/A",
+        "default": "Not a Match"
+      }
+    },
+    "relationship_id_key": "Email",
+    "has_display_name": false,
+    "sample_columns": [],
+    "sample_file_path": null,
+    "recurring_true_value": "Select Is Recurring mapping first",
+    "recurring_values": []
+  },
+  {
+    "name": "Grants",
+    "file_pattern": "*.xlsx",
+    "date_field": "Notification Date",
+    "date_fallback_field": "Grant Period Start Date",
+    "amount_field": "Award Amount",
+    "id_field": "Grant ID",
+    "secondary_id_field": "",
+    "is_base_platform": false,
+    "column_mapping": {
+      "Transaction ID": {
+        "target": "Grant ID",
+        "default": ""
+      },
+      "Secondary ID": {
+        "target": "N/A",
+        "default": ""
+      },
+      "Recipient": {
+        "target": "Designation",
+        "default": ""
+      },
+      "Contribution Form URL": {
+        "target": "N/A",
+        "default": ""
+      },
+      "Display Name": {
+        "target": "Org Common Name",
+        "default": ""
+      },
+      "Donor First Name": {
+        "target": "N/A",
+        "default": ""
+      },
+      "Donor Last Name": {
+        "target": "N/A",
+        "default": ""
+      },
+      "Donor Address Line 1": {
+        "target": "N/A",
+        "default": ""
+      },
+      "Donor City": {
+        "target": "N/A",
+        "default": ""
+      },
+      "Donor State": {
+        "target": "N/A",
+        "default": ""
+      },
+      "Donor ZIP": {
+        "target": "N/A",
+        "default": ""
+      },
+      "Donor Country": {
+        "target": "N/A",
+        "default": ""
+      },
+      "Donor Occupation": {
+        "target": "N/A",
+        "default": ""
+      },
+      "Donor Employer": {
+        "target": "N/A",
+        "default": ""
+      },
+      "Donor Email": {
+        "target": "N/A",
+        "default": ""
+      },
+      "Donor Phone": {
+        "target": "N/A",
+        "default": ""
+      },
+      "Recurring ID": {
+        "target": "N/A",
+        "default": ""
+      },
+      "Initial Recurring Contribution Date": {
+        "target": "N/A",
+        "default": ""
+      },
+      "Is Recurring": {
+        "target": "N/A",
+        "default": "FALSE"
+      },
+      "Match?": {
+        "target": "N/A",
+        "default": "Not a Match"
+      }
+    },
+    "relationship_id_key": "Org VANID",
+    "has_display_name": false,
+    "sample_columns": [
+      "Disbursement ID",
+      "Period Ending",
+      "Total Donations (Gross)",
+      "Net Total Payment",
+      "Charity ID",
+      "Company",
+      "Project",
+      "Donation Date",
+      "Donor First Name",
+      "Donor Last Name",
+      "Email",
+      "Address",
+      "City",
+      "State/Prov",
+      "Postal Code",
+      "Activity",
+      "Comment",
+      "Transaction ID",
+      "Donation Frequency",
+      "Currency",
+      "Project Remote ID",
+      "Source",
+      "Reason",
+      "Total Donation to be Acknowledged",
+      "Match Amount",
+      "Cause Support Fee",
+      "Merchant Fee",
+      "Fee Comment"
+    ],
+    "sample_file_path": null,
+    "recurring_true_value": "Select Is Recurring mapping first",
+    "recurring_values": []
+  },
+  {
+    "name": "Benevity",
+    "file_pattern": "*.xlsx",
+    "date_field": "Donation Date",
+    "date_fallback_field": null,
+    "amount_field": "Total Donation to be Acknowledged",
+    "id_field": "Transaction ID",
+    "secondary_id_field": "",
+    "is_base_platform": false,
+    "column_mapping": {
+      "Transaction ID": {
+        "target": "Transaction ID",
+        "default": ""
+      },
+      "Secondary ID": {
+        "target": "N/A",
+        "default": ""
+      },
+      "Recipient": {
+        "target": "Project",
+        "default": ""
+      },
+      "Contribution Form URL": {
+        "target": "N/A",
+        "default": ""
+      },
+      "Display Name": {
+        "target": "N/A",
+        "default": ""
+      },
+      "Donor First Name": {
+        "target": "Donor First Name",
+        "default": ""
+      },
+      "Donor Last Name": {
+        "target": "Donor Last Name",
+        "default": ""
+      },
+      "Donor Address Line 1": {
+        "target": "Address",
+        "default": ""
+      },
+      "Donor City": {
+        "target": "City",
+        "default": ""
+      },
+      "Donor State": {
+        "target": "State/Prov",
+        "default": ""
+      },
+      "Donor ZIP": {
+        "target": "Postal Code",
+        "default": ""
+      },
+      "Donor Country": {
+        "target": "N/A",
+        "default": ""
+      },
+      "Donor Occupation": {
+        "target": "N/A",
+        "default": ""
+      },
+      "Donor Employer": {
+        "target": "Company",
+        "default": ""
+      },
+      "Donor Email": {
+        "target": "Email",
+        "default": ""
+      },
+      "Donor Phone": {
+        "target": "N/A",
+        "default": ""
+      },
+      "Recurring ID": {
+        "target": "N/A",
+        "default": ""
+      },
+      "Initial Recurring Contribution Date": {
+        "target": "N/A",
+        "default": ""
+      },
+      "Is Recurring": {
+        "target": "Donation Frequency",
+        "default": ""
+      },
+      "Match?": {
+        "target": "Match Amount",
+        "default": "Not a Match"
+      }
+    },
+    "relationship_id_key": "Relationship ID",
+    "has_display_name": false,
+    "sample_columns": [
+      "Disbursement ID",
+      "Period Ending",
+      "Total Donations (Gross)",
+      "Net Total Payment",
+      "Charity ID",
+      "Company",
+      "Project",
+      "Donation Date",
+      "Donor First Name",
+      "Donor Last Name",
+      "Email",
+      "Address",
+      "City",
+      "State/Prov",
+      "Postal Code",
+      "Activity",
+      "Comment",
+      "Transaction ID",
+      "Donation Frequency",
+      "Currency",
+      "Project Remote ID",
+      "Source",
+      "Total Donation to be Acknowledged",
+      "Match Amount",
+      "Cause Support Fee",
+      "Merchant Fee",
+      "Fee Comment",
+      "Amount",
+      "Relationship ID"
+    ],
+    "sample_file_path": "D:/Projects/CTools/TransactionCompiler/Example Files/generated files/BenevityFinalFile 27012025 - 051733.xlsx",
+    "recurring_true_value": "Recurring",
+    "recurring_values": [
+      "One Time",
+      "Recurring",
+      "Unspecified"
+    ]
+  }
+]
